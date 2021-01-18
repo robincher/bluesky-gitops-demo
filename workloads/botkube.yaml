@@ -209,11 +209,11 @@ data:
     # Setting to support multiple clusters
     settings:
       # Cluster name to differentiate incoming messages
-      clustername: not-configured
+      clustername: minikube-bluesky
       # Kubectl executor configs
       kubectl:
         # Set true to enable kubectl commands execution
-        enabled: false
+        enabled: true
         commands:
           # method which are allowed
           verbs: ["api-resources", "api-versions", "cluster-info", "describe", "diff", "explain", "get", "logs", "top", "auth"]
