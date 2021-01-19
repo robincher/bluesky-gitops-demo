@@ -31,7 +31,9 @@ spec:
           imagePullPolicy: IfNotPresent
           name: bluesky-app
           ports:
-          - containerPort: 3000
+            - name: http
+              containerPort: 3000
+              protocol: TCP
           resources: {}
           terminationMessagePath: /dev/termination-log
           terminationMessagePolicy: File
@@ -54,6 +56,5 @@ spec:
   ports:
     - port: 3000
       targetPort: 3000
-      nodePort: 30000
       name: http
       protocol: TCP
