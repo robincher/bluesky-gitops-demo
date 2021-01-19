@@ -29,7 +29,9 @@ spec:
       containers:
         - image: enpapex/bluesky-react-sample-app:latest
           imagePullPolicy: IfNotPresent
-          name: utility-app
+          name: bluesky-app
+          ports:
+          - containerPort: 3000
           resources: {}
           terminationMessagePath: /dev/termination-log
           terminationMessagePolicy: File
@@ -53,3 +55,4 @@ spec:
     - port: 3000
       nodePort: 30000
       name: http
+      protocol: TCP
