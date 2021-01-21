@@ -2,7 +2,7 @@
 
 Demonstration of GitOps with Flux and Botkube for alerting
 
-For the first part of this demo, please go to [Bluesky Sample ReactApp](https://github.com/robincher/bluesky-sample-react-app)
+For the first part of this demo, please go to [Bluesky Sample ReactApp](https://github.com/robincher/bluesky-react-sample-app)
 
 # Preparation
 
@@ -21,6 +21,7 @@ For the first part of this demo, please go to [Bluesky Sample ReactApp](https://
 
 1. Following the container image pushed, the gitops repository (right here) can be updated with the new container image reference.
 2. Flux will observe any changes to the bluesky-gitops-demo repository, and apply the corresponding updates to the workload or configurations running in the kubernetes cluster.
+3. Observe the changes to the cluster via Slack through Botkube notification
 
 ## Implementation
 
