@@ -27,7 +27,7 @@ spec:
         app: bluesky-app
     spec:
       containers:
-        - image: enpapex/bluesky-react-sample-app:sha-3ebddea
+        - image: enpapex/bluesky-react-sample-app:sha-443b544
           imagePullPolicy: IfNotPresent
           name: bluesky-app
           ports:
