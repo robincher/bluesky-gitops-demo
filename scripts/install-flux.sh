@@ -10,4 +10,5 @@ fluxctl install \
 --git-url=git@github.com:${GHUSER}/${REPOSITORY} \
 --git-branch=master \
 --git-path=workloads \
+--git-poll-interval=120s \
 --namespace=flux | kubectl apply -f -
