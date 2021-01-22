@@ -245,7 +245,7 @@ stringData:
       slack:
         enabled: true
         channel: 'operations'
-        token: 'xoxb-1639357680006-1643053137141-FKIKXwL9ZbRD7387hXcr4AHb'
+        token: 'YOUR-BOT-TOKEN'
         notiftype: short                            # Change notification type short/long you want to receive. notiftype is optional and Default notification type is short (if not specified)
 
       # Settings for Mattermost
