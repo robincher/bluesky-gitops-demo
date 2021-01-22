@@ -366,7 +366,7 @@ spec:
               value: "/config/"
             # set one of the log levels- info, warn, debug, error, fatal, panic
             - name: LOG_LEVEL
-              value: "info"
+              value: "debug"
             # set BotKube release version
             - name: BOTKUBE_VERSION
               value: v0.11.0
